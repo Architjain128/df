@@ -1,0 +1,566 @@
+{
+    "patient_identifiers": {
+        "parameters": [
+            {
+                "name":"patient_id",
+                "field": "text"
+            },
+            {
+                "name":"sample_id",
+                "field": "text"
+            },
+            {
+                "name":"first_name",
+                "field": "text"
+            },
+            {
+                "name":"middle_name",
+                "field": "text"
+            },
+            {
+                "name":"last_name",
+                "field": "text"
+            },
+            {
+                "name":"email",
+                "field": "text"
+            },
+            {
+                "name":"address",
+                "field": "text"
+            },
+            {
+                "name":"state",
+                "field": "text"
+            },
+            {
+                "name":"country",
+                "field": "text"
+            },
+            {
+                "name":"pincode",
+                "field": "text"
+            },
+            {
+                "name":"aaddar",
+                "field": "text"
+            },
+            {
+                "name":"gender",
+                "field": "text"
+            },
+            {
+                "name":"age",
+                "field": "text"
+            },
+            {
+                "name":"dob",
+                "field": "text"
+            },
+            {
+                "name":"mobile_number",
+                "field": "text"
+            },
+            {
+                "name":"current_status",
+                "field": "text"
+            }
+        ]
+    },
+    "patients_vitals": {
+        "parameters": [
+            {
+                "name":"blood_preesure",
+                "field": "text"
+            },
+            {
+                "name":"systolic",
+                "field": "text"
+            },
+            {
+                "name":"diastolic",
+                "field": "text"
+            },
+            {
+                "name":"temperature",
+                "field": "text"
+            },
+            {
+                "name":"respiratory_rate",
+                "field": "text"
+            },
+            {
+                "name":"bmi",
+                "field": "text"
+            },
+            {
+                "name":"heart_rate",
+                "field": "text"
+            },
+            {
+                "name":"spo2",
+                "field": "text"
+            },
+            {
+                "name":"crp",
+                "field": "text"
+            }
+        ]
+    },
+    "imaging_reports": {
+        "parameters": [
+            {
+                "name":"test_name",
+                "field": "dropdown",
+                "test_names": [
+                    "xray",
+                    "ct_scans",
+                    "mris",
+                    "ultrasound",
+                    "pet",
+                    "nuclear_medicine",
+                    "fluroscopy",
+                    "key"
+                ]
+            },
+            {
+                "name":"time_of_test",
+                "field": "text"
+            },
+            {
+                "name":"body_site",
+                "field": "file"
+            },
+            {
+                "name":"testing_device",
+                "field": "text"
+            },
+            {
+                "name":"testing_center",
+                "field": "text"
+            },
+            {
+                "name":"comment",
+                "field": "text"
+            },
+            {
+                "name":"key",
+                "field": "text"
+            }
+        ]        
+    },
+    "testing_reports": {
+        "parameters": [
+            {
+                "name":"test_name",
+                "field": "text",
+                "test_names": [
+                    {
+                        "name": "hematology",
+                        "test_parameters": [
+                            "ABSOLUTE BASOPHIL COUNT",
+                            "ABSOLUTE EOSINOPHIL COUNT",
+                            "ABSOLUTE LYMPHOCYTE COUNT",
+                            "ABSOLUTE MONOCYTE COUNT",
+                            "ABSOLUTE NEUTROPHIL COUNT",
+                            "ACTIVATED PARTIAL THROMBOPLASTIN TIME ",
+                            "ANTI THROMBIN III ANTIGEN",
+                            "BLOOD GROUP & RH FACTOR",
+                            "BLOOD PERIPHERAL SMEAR EXAMINATION",
+                            "CD3 ABSOLUTE COUNT",
+                            "CD3/CD4/CD8 COUNT",
+                            "CD4 ABSOLUTE COUNT",
+                            "CD4/CD8 COUNT",
+                            "COMPLETE BLOOD COUNT & ESR",
+                            "COMPLETE BLOOD PICTURE",
+                            "COOMBS TEST - DIRECT",
+                            "COOMBS TEST - INDIRECT",
+                            "DIFFERENTIAL COUNT (DC)",
+                            "ERYTHROCYTE COUNT",
+                            "ERYTHROCYTE SEDIMENTATION RATE (ESR)",
+                            "FACTOR IX",
+                            "FACTOR V",
+                            "FACTOR VIII",
+                            "FIBRINOGEN",
+                            "FIBRINOGEN DEGRADATION PRODUCT (FDP)",
+                            "HEMOGLOBIN (Hb)",
+                            "HEMOGLOBIN ELECTROPHORESIS",
+                            "LUPUS ANTICOAGULANT",
+                            "MALARIA FALCIPARUM AND VIVAX ANTIGEN (V & F)",
+                            "MALARIAL PARASITE IDENTIFICATION ",
+                            "MEAN CORPUSCULAR HEMOGLOBIN  (MCH)",
+                            "MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION (MCHC)",
+                            "MEAN CORPUSCULAR VOLUME(MCV)",
+                            "MEAN PLATELET VOLUME (MPV)",
+                            "METH HEMOGLOBIN",
+                            "PACKED CELL VOLUME (PCV)",
+                            "PLATELET COUNT",
+                            "PROTEIN C ACTIVITY",
+                            "PROTEIN S ACTIVITY",
+                            "PROTHROMBIN TIME (PT)",
+                            "QBC MALARIA TEST",
+                            "RETICULOCYTE COUNT",
+                            "RH ANTIBODY - TITRE",
+                            "THROMBIN TIME",
+                            "TOTAL AND DIFFERENTIAL COUNT (TC & DC)",
+                            "WBC COUNT"
+                        ]
+                    },
+                    {
+                        "test_name": "biochemistry",
+                        "test_parameters": [
+                            "ADA LEVEL",
+                            "ALBUMIN",
+                            "ALCOHOL LEVEL",
+                            "ALDOLASE",
+                            "ALDOSTERONE",
+                            "ALPHA FETO PROTEIN",
+                            "ALUMINIUM",
+                            "AMMONIA ",
+                            "AMYLASE",
+                            "ANGIOTENSIN CONVERTING ENZYME",
+                            "BICARBONATE ",
+                            "CALCITONIN",
+                            "CALCIUM",
+                            "CERULOPLASMIN",
+                            "CHLORIDE",
+                            "COPPER",
+                            "CORTISOL",
+                            "CREATININE",
+                            "FERRITIN",
+                            "FOLATE ",
+                            "FREE BETA HCG  ",
+                            "GASTRIN",
+                            "GLOBULIN",
+                            "INSULIN",
+                            "IRON",
+                            "LACTATE DEHYDROGENASE ",
+                            "LIPASE",
+                            "LITHIUM ",
+                            "MAGNESIUM",
+                            "PHOSPHORUS",
+                            "POTASSIUM",
+                            "PROGESTERONE",
+                            "PROLACTIN",
+                            "PROTEIN ELECTROPHORESIS",
+                            "SODIUM",
+                            "THYROGLOBULIN",
+                            "TOTAL BETA HCG ",
+                            "TRANSFERRIN",
+                            "TRIGLYCERIDES",
+                            "UREA",
+                            "TACROLIMUS LEVEL",
+                            "DIHYDROXY VITAMIN D",
+                            "HYDROXYPROGESTERONE",
+                            "17-KETOSTEROIDS",
+                            "25 HYDROXY VITAMIN D",
+                            "ACID PHOSPHATASE",
+                            "ADRENOCORTICOTROPHIC HORMONE ",
+                            "ALANINE AMINOTRANSFERASE ",
+                            "ALBUMIN/GLOBULIN RATIO",
+                            "ALKALINE PHOSPHATASE",
+                            "ALPHA 1 ANTITRYPSINANDROSTENEDIONE",
+                            "ANTI STREPTOLYSIN O (ASO) TITRE",
+                            "ANTI THYROGLOBULIN ANTIBODY ",
+                            "ANTI THYROPEROXIDASE ANTIBODY ",
+                            "APOLIPOPROTEIN A1 ",
+                            "APOLIPOPROTEIN A1/B RATIO",
+                            "APOLIPOPROTEIN B ",
+                            "ASPARTATE AMINOTRANSFERASE ",
+                            "B TYPE NATRIURETIC PEPTIDE",
+                            "BLOOD ARSENIC LEVEL",
+                            "BLOOD LEAD ",
+                            "BLOOD UREA NITROGEN",
+                            "BUN/CREATININE RATIO",
+                            "C-PEPTIDE",
+                            "C-REACTIVE PROTEIN (CRP)",
+                            "CA 15-3",
+                            "CA 19-9",
+                            "CA-125",
+                            "CALCIUM CREATININE RATIO",
+                            "CARCINO EMBRYONIC ANTIGEN CHOLINESTERASE",
+                            "COMPLEMENT 3 (C3)",
+                            "COMPLEMENT 4 (C4)",
+                            "CREATINE KINASE (CK)",
+                            "CREATINE KINASE MB FRACTION (CK-MB)",
+                            "CREATININE CLEARANCE TEST",
+                            "CYCLOSPORINE LEVEL",
+                            "D-DIMERDEHYDROEPIANDROSTERONE ",
+                            "DEHYDROEPIANDROSTERONE SULPHATE ",
+                            "DIGOXIN LEVEL",
+                            "DIRECT BILIRUBIN",
+                            "ERYTHROPOIETIN (EPO)",
+                            "ESTRADIOL (E2)",
+                            "FASTING BLOOD GLUCOSE",
+                            "FASTING URINE GLUCOSE",
+                            "FOLLICLE STIMULATING HORMONE (FSH)",
+                            "POST PRANDIAL BLOOD GLUCOSE",
+                            "POST PRANDIAL URINE GLUCOSEPROCALCITONIN",
+                            "PROSTATE SPECIFIC ANTIGEN ",
+                            "PROSTATIC ACID PHOSPHATASE",
+                            "RANDOM BLOOD GLUCOSE",
+                            "RANDOM URINE GLUCOSE",
+                            "RBC FOLATE",
+                            "THYROID STIMULATING HORMONE (TSH)",
+                            "TOTAL BILIRUBIN",
+                            "TOTAL CHOLESTEROL",
+                            "TOTAL IRON BINDING CAPACITY (TIBC)",
+                            "TOTAL  PROTEIN",
+                            "TOTAL TESTOSTERONE",
+                            "TOTAL THYROXINE (TT4)",
+                            "TOTAL TRIIODOTHYRONINE (TT3)",
+                            "TOTAL/HDL CHOLESTEROL RATIO",
+                            "TRANSFERRIN SATURATION ",
+                            "TROPONIN - T",
+                            "TROPONIN I QUALITATIVE ",
+                            "UNCONJUGATED ESTRIOL (E3)",
+                            "UREA/CREATININE RATIO",
+                            "URIC ACID",
+                            "URINARY COPPER",
+                            "Unsaturated Iron Binding Capacity (UIBC)",
+                            "VITAMIN B12 ",
+                            "VLDL CHOLESTEROL"
+                        ]
+                    },
+                    {
+                        "test_name": "urinalysis",
+                        "test_parameters": [
+                            "specific_gravity",
+                            "protein",
+                            "glucose",
+                            "porphyrin",
+                            "microscopic_examination",
+                            "ketones",
+                            "bilirubins",
+                            "uroblinogen",
+                            "nitrate",
+                            "rbcs",
+                            "wbcs",
+                            "epithelial_cells",
+                            "crystals",
+                            "AMPHETAMINES",
+                            "AMYLASE",
+                            "ARSENIC LEVEL",
+                            "BARBITURATES",
+                            "BENZODIAZEPINES",
+                            "CALCIUM",
+                            "CANNABINOIDS",
+                            "CATECHOLAMINES",
+                            "CHLORIDE",
+                            "COCAINE ",
+                            "CORTISOL",
+                            "CREATININE (24 HRS)",
+                            "ECSTASY/MDMA ",
+                            "EPINEPHRINE",
+                            "HYDROXY INDOLE ACETIC ACID ",
+                            "METHODONE ",
+                            "MICROALBUMIN (24 HRS)",
+                            "MICROALBUMIN SPOT MEASUREMENT",
+                            "OPIATES SCREEN",
+                            "PHENCYCLIDINE ",
+                            "PHOSPHORUS",
+                            "POTASSIUM",
+                            "PROTEIN (24 HRS)",
+                            "PROTEIN CREATININE RATIO ",
+                            "PROTEIN ELECTROPHORESIS",
+                            "QUALITATIVE BETA HCG ",
+                            "SODIUM",
+                            "UREA - SPOT MEASUREMENT",
+                            "URIC ACID (24 HRS)",
+                            "URIC ACID - SPOT MEASUREMENT"
+                        ]
+                    },
+                    {
+                        "test_name": "Inflammatory Markers",
+                        "test_parameters": [
+                            "CRP",
+                            "D-dimer",
+                            "Ferritin",
+                            "IL-1RA",
+                            "IL-18",
+                            "IL-10",
+                            "Albumin",
+                            "LDH",
+                            "LBP",
+                            "HMGB1",
+                            "sTNF-RI/s",
+                            "TNF-RII"
+                        ]
+                    },
+                    {
+                        "test_name": "serology",
+                        "test_parameters": [
+                            "ANTI PCNA ANTIBODY",
+                            "ANTI PM-SCL ANTIBODY",
+                            "ANTI RIBOPROTEIN",
+                            "ANTI nRNP/SM ANTIBODY",
+                            "ANTI CARDIOLIPIN IgA ANTIBODY",
+                            "ANTI CARDIOLIPIN IgG ANTIBODY",
+                            "ANTI CARDIOLIPIN IgM ANTIBODY",
+                            "ANTI ECHINOCOCCUS IgG ANTIBODY",
+                            "ANTI GLIADIN IgA ANTIBODY",
+                            "ANTI GLIADIN IgG ANTIBODY",
+                            "ANTI JO-1 ANTIBODY",
+                            "ANTI LKM ANTIBODY ",
+                            "ANTI MITOCHONDRIAL ANTIBODY ",
+                            "ANTI MITOCHONDRIAL ANTIBODY QUALITATIVE - IFA METHOD",
+                            "ANTI NUCLEAR ANTIBODY (ANA",
+                            "ANTI NUCLEAR ANTIBODY QUALITATIVE - IFA METHOD",
+                            "ANTI NUCLEAR ANTIBODY TITRES - IFA METHOD",
+                            "ANTI PHOSPHOLIPID IgG ANTIBODY",
+                            "ANTI PHOSPHOLIPID IgM ANTIBODY",
+                            "ANTI Rho52 ANTIBODY",
+                            "ANTI SCL-70 ANTIBODY",
+                            "ANTI SMITH (Sm) ANTIBODY",
+                            "ANTI SMOOTH MUSCLE ANTIBODY (ASMA) TITRES - IFA METHOD",
+                            "ANTI SMOOTH MUSCLE ANTIBODY QUALITATIVE - IFA METHOD",
+                            "ANTI SPERM ANTIBODY",
+                            "ANTI SS -A IgG ANTIBODY",
+                            "ANTI SS- B IgG ANTIBODY ",
+                            "ANTI dsDNA ANTIBODY ",
+                            "ANTI dsDNA ANTIBODY QUALITATIVE - IFA METHOD",
+                            "ANTI dsDNA ANTIBODY TITRES - IFA METHOD",
+                            "NUCLEOSOMES",
+                            "BRUCELLA ANTIBODY SCREEN",
+                            "BRUCELLA IgG ANTIBODY",
+                            "BRUCELLA IgM ANTIBODY",
+                            "CHIKUNGUNYA IgM ANTIBODY",
+                            "CYCLIC CITRULLINATED PEPTIDE ANTIBODY",
+                            "CYSTICERCOSIS IgG ANTIBODY",
+                            "CYTOMEGALO VIRUS IgG ANTIBODY",
+                            "CYTOMEGALO VIRUS IgM ANTIBODY",
+                            "DENGUE IgG ANTIBODY",
+                            "DENGUE IgG ANTIBODY RAPID CARD TEST",
+                            "DENGUE IgM ANTIBODY",
+                            "DENGUE IgM ANTIBODY RAPID CARD TEST",
+                            "Dengue NS1 Antigen Elisa",
+                            "Dengue NS1 Antigen card",
+                            "GLOMERULAR BASEMENT MEMBRANE IgG ANTIBODY ",
+                            "HELICOBACTER PYLORI IgA ANTIBODY",
+                            "HELICOBACTER PYLORI IgG ANTIBODY",
+                            "HELICOBACTER PYLORI IgM ANTIBODY",
+                            "HEPATITIS A VIRUS ANTIBODY (HAV) - TOTAL ",
+                            "HEPATITIS A VIRUS IgM ANTIBODY (HAV- IgM",
+                            "HEPATITIS B CORE ANTIBODY - TOTAL (HBcAb-Total",
+                            "HEPATITIS B CORE IgM ANTIBODY",
+                            "HEPATITIS B ENVELOPE ANTIBODY",
+                            "HEPATITIS B ENVELOPE ANTIGEN ",
+                            "HEPATITIS B SURFACE ANTIBODY ",
+                            "HEPATITIS B SURFACE ANTIGEN (HBsAG",
+                            "HEPATITIS B SURFACE ANTIGEN RAPID CARD TEST",
+                            "HEPATITIS C VIRUS (HCV) ANTIBODY",
+                            "HEPATITIS C VIRUS RAPID CARD TEST",
+                            "HEPATITIS E VIRUS IgG ANTIBODY (HEV IgG",
+                            "HEPATITIS E VIRUS IgM ANTIBODY (HEV IgM",
+                            "HERPES SIMPLEX VIRUS 1 & 2 IgG ANTIBODY",
+                            "HERPES SIMPLEX VIRUS 1 & 2 IgM ANTIBODY",
+                            "HERPES SIMPLEX VIRUS 1 IgG ANTIBODY",
+                            "HERPES SIMPLEX VIRUS 1 IgM ANTIBODY",
+                            "HERPES SIMPLEX VIRUS 2 IgG ANTIBODY",
+                            "HERPES SIMPLEX VIRUS 2 IgM ANTIBODY",
+                            "HIV 1 & 2 ANTIBODY",
+                            "HIV 1 & 2 ANTIBODY - RAPID CARD METHOD",
+                            "HIV WESTERN BLOT",
+                            "INFECTIOUS MONONUCLEOSIS TEST",
+                            "INTERFERON GAMMA ASSAY",
+                            "LEPTOSPIRA IgG ANTIBODY ",
+                            "LEPTOSPIRA IgG ANTIBODY RAPID CARD TEST",
+                            "LEPTOSPIRA IgM ANTIBODY",
+                            "LEPTOSPIRA IgM ANTIBODY RAPID CARD TEST",
+                            "MEASLES IgG ANTIBODY",
+                            "MEASLES IgM ANTIBODY ",
+                            "MICROFILARIA ANTIGEN",
+                            "MUMPS IgG ANTIBODY",
+                            "MUMPS IgM ANTIBODY",
+                            "PARIETAL CELL ANTIBODY",
+                            "RAPID PLASMA REAGIN TEST",
+                            "RHEUMATOID FACTOR ",
+                            "RHEUMATOID FACTOR IgG ANTIBODY",
+                            "RHEUMATOID FACTOR IgM ANTIBODY",
+                            "RUBELLA VIRUS IgG ANTIBODY",
+                            "RUBELLA VIRUS IgM ANTIBODY",
+                            "SALMONELLA TYPHI IgG ANTIBODY",
+                            "SALMONELLA TYPHI IgM ANTIBODY",
+                            "TOXOPLASMA GONDII IgG ANTIBODY",
+                            "TOXOPLASMA GONDII IgM ANTIBODY",
+                            "TREPONEMA PALLIDUM HEMAGGLUTINATION (TPHA",
+                            "VARICELLA ZOSTER IgG ANTIBODY",
+                            "VARICELLA ZOSTER IgM ANTIBOD"
+                        ]
+                    },
+                    {
+                        "test_name": "molecular_biology",
+                        "test_parameters": [
+                            "FACTOR V LEIDEN MUTATION (SCREENING",
+                            "HEPATITIS B VIRUS DNA QUALITATIVE PCR",
+                            "HEPATITIS B VIRUS QUANTITATIVE PCR ",
+                            "HEPATITIS C VIRUS GENOTYPE",
+                            "HEPATITIS C VIRUS QUALITATIVE PCR",
+                            "HEPATITIS C VIRUS QUANTITATIVE PCR",
+                            "HIV 1 RNA QUALITATIVE PCR",
+                            "HIV 1 RNA QUANTITATIVE PCR",
+                            "MYCOBACTERIUM TUBERCULOSIS QUALITATIVE PCR "
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"time_of_test",
+                "field": "text"
+            },
+            {
+                "name":"specimen_type",
+                "field": "text"
+            },
+            {
+                "name":"testing_device",
+                "field": "text"
+            },
+            {
+                "name":"testing_center",
+                "field": "text"
+            },
+            {
+                "name":"comment",
+                "field": "text"
+            },
+            {
+                "name":"key",
+                "field": "text"
+            }
+        ]        
+    },
+    "auxillary_details": {
+        "parameters": [
+            {
+                "name":"medication",
+                "field": "text"
+            },
+            {
+                "name":"vaccination",
+                "field": "text"
+            },
+            {
+                "name":"diet",
+                "field": "text"
+            },
+            {
+                "name":"key",
+                "field": "text"
+            }
+        ],
+        "medications": {
+            "parameters": [
+                "medicine",
+                "dosage",
+                "duration"
+            ]
+        },
+        "vaccinations": {
+            "paramdters": [
+                "vaccine",
+                "timestamp"
+            ]
+        }
+    }
+}
